@@ -1,0 +1,51 @@
+.card {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .currency-converter {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+  }
+  
+  .currency-converter h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333; 
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333; 
+  }
+  
+  input {
+    padding: 8px;
+    border: 2px solid #cdc3c3;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .exchange-rate-today {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484a4e; 
+  }
+  

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+ 
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+  
+  <title> Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body class="with-overlay">
+  <!-- Overlay -->
+    <div class="overlay"></div>
+
+  <!-- Contenido -->
+  <main class="container">
+    <section class="content">
+      <h1 class="content_title">  Stay updated! </h1>
+      <h2 class="content_subtitle">
+        Join 60,000+ product managers receiving monthly updates on:
+      </h2>
+      <!-- Lista -->
+        <ul class="content_benefits">
+        <li class="content_benefits_benefits">Product discovery and building what matters</li>
+        <li class="content_benefits_benefits">Measuring to ensure updates are arsuccess</li>
+        <li class="content_benefits_benefits">And much more!</li> 
+        </ul>
+        <!-- Form -->
+        <form class="form">
+          <div class="form_state">
+            <div class="form_label-container">
+              <label class="form_label" for="">Email address</label>
+              <div class="form_status">Valid email required</div>
+            </div>
+          </div>   
+               
+        <input class="form_imput-email" type="email" id="form-input" placeholder="email@company.com">
+        <input class="form_submit-button button" type="submit" value="Subscribe to monthly newsletter">      
+      </form>
+
+    </section>
+
+
+  <!-- Imagenes -->
+
+
+    <section class="illustration">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="sing-up Image" class="illustration_image">
+      <img src="assets/images/illustration-sign-up-mobile.svg" alt="sing-up illustration" class="illustration_image-mobile">
+    </section>
+    <script src="js/main.js" defer></script>
+  </main>
+
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+
+  <div class="succes">
+    <img src="assets/images/icon-success.svg" alt="Succes">
+    <p class="succes_title">Thanks for subscribing!</p>
+    <p class="succes_description"> A confirmation email has been sent to ash@loremcompany.com. 
+      Please open it and click the button inside to confirm your subscription.</p>
+      <button class="succes_dismiss button">Dismiss message</button>
+  </div>
+
+  <!-- End Succes message -->
+  
+ 
+</body>
+</html>

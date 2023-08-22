@@ -1,0 +1,46 @@
+/* Estilos para el acordeón */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.accordion {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px; 
+}
+
+
+.accordion-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease-in-out;
+  font-size: 14px; 
+}
+
+.accordion.expanded .accordion-icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion-content {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px; 
+}
